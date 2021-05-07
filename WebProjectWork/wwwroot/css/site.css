@@ -9,7 +9,7 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+  color: red;
 }
 
 .btn-primary {
@@ -27,7 +27,8 @@ a {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+  font-size: 30px;
+  
 }
 @media (min-width: 768px) {
   html {
@@ -56,11 +57,23 @@ button.accept-policy {
 html {
   position: relative;
   min-height: 100%;
+  background-color: aqua;
 }
 
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+}
+.mystuff{
+  font-size: 40px;
+  color: green;
+  text-align: right;
+  background-color: red;
+}
+
+.mystuff li{
+  font-size: 60px;
+  text-align: left;
 }
 .footer {
   position: absolute;
