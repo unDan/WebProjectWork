@@ -16,20 +16,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93eebde-5e18-4bac-a992-410a220f0db2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork.dir/.idea/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/riderModule.iml" afterDir="false" />
+    <list default="true" id="c93eebde-5e18-4bac-a992-410a220f0db2" name="Default Changelist" comment="check">
+      <change afterPath="$PROJECT_DIR$/WebProjectWork/Models/GameCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectWork/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -42,8 +51,13 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/site.css" />
-      <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Shared/_Layout.cshtml" />
+      <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/Index.cshtml" />
+      <option value="$PROJECT_DIR$/WebProjectWork/Controllers/HomeController.cs" />
+      <option value="$PROJECT_DIR$/WebProjectWork/Models/GameCard.cs" />
+      <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/js/index.js" />
+      <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/_header.scss" />
+      <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.scss" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pfKc2olGuhZtoW8AnlPtMiqdvA" />
@@ -57,6 +71,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -123,5 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="check" />
+    <option name="LAST_COMMIT_MESSAGE" value="check" />
   </component>
 </project>

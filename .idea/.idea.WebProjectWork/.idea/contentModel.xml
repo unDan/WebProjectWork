@@ -14,6 +14,7 @@
         </e>
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="GameCard.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -44,6 +45,7 @@
         <e p="WebProjectWork.csproj" t="IncludeRecursive" />
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
+            <e p="_header.scss" t="Include" />
             <e p="index.css" t="Include" />
             <e p="index.css.map" t="Include" />
             <e p="index.scss" t="Include" />
@@ -51,6 +53,7 @@
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="js" t="Include">
+            <e p="index.js" t="Include" />
             <e p="site.js" t="Include" />
           </e>
           <e p="lib" t="Include">
