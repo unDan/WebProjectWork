@@ -34,7 +34,9 @@
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
+            <e p="Login.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
+            <e p="SignUp.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
@@ -49,12 +51,13 @@
             <e p="index.css" t="Include" />
             <e p="index.css.map" t="Include" />
             <e p="index.scss" t="Include" />
-            <e p="site.css" t="Include" />
+            <e p="login.css" t="Include" />
+            <e p="login.css.map" t="Include" />
+            <e p="login.scss" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="js" t="Include">
             <e p="index.js" t="Include" />
-            <e p="site.js" t="Include" />
           </e>
           <e p="lib" t="Include">
             <e p="bootstrap" t="Include">

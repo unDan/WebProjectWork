@@ -12,11 +12,11 @@
     <nav>
       <ul class="menu">
         <li class="logo"><a asp-area="" asp-controller="Home" asp-action="Index">Гордое название нашего магазина</a></li>
-        <li><a href="#shop">Магазин</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Index">Магазин</a></li>
         <li><a href="#search">Поиск</a></li>
       </ul>
       <div class="rightNav">
-        <div class="rightNav__item sign-in"><a>Bход</a></div>
+        <div class="rightNav__item sign-in"><a asp-area="" asp-controller="Home" asp-action="LogIn">Bход</a></div>
         <div class="rightNav__item download"><a href="#download">Установить приложение</a></div>
       </div>
     </nav>
@@ -28,13 +28,9 @@
     </main>
 </div>
 
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2021 - OnlineShop - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-    </div>
-</footer>
+
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/js/index.js"></script>
+<script src="~/js/index.js"></script> 
 <script src="~/js/index.js" asp-append-version="true"></script>
 @await RenderSectionAsync("Scripts", required: false)
 </body>

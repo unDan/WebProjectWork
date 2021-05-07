@@ -1,0 +1,75 @@
+﻿.login-card{
+  text-align: center;
+  width: 100%;
+}
+.login{
+  text-align: center;
+  margin: 40px auto;
+  padding: 28px 60px 10px;
+  background-color: #202020;
+  display: inline-block;
+  &-element{
+
+
+  }
+  p{
+    font-family: Brutal, sans-serif;
+    color: #f4f4f4;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+.login-element.login-element__info{
+  p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+//загрушка
+.login-element.logo{
+  margin: 50px 0;
+}
+
+
+.form {
+  margin: 0 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.form_element{
+
+  &__email{
+
+  }
+  input{
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 320px;
+    max-width: 470px;
+    width: 100%;
+  }
+
+}
+
+.form_element__forgot{
+  background-color: #002752;
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  justify-content: space-between;
+  a{
+
+
+
+  }
+
+}
