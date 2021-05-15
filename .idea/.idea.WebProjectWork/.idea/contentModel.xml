@@ -48,14 +48,10 @@
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="_header.scss" t="Include" />
-            <e p="fonts.css" t="Include" />
-            <e p="fonts.css.map" t="Include" />
             <e p="fonts.scss" t="Include" />
             <e p="index.css" t="Include" />
             <e p="index.css.map" t="Include" />
             <e p="index.scss" t="Include" />
-            <e p="login.css" t="Include" />
-            <e p="login.css.map" t="Include" />
             <e p="login.scss" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
@@ -64,6 +60,11 @@
               <e p="BrutalType.eot" t="Include" />
               <e p="BrutalType.woff" t="Include" />
               <e p="BrutalType.woff2" t="Include" />
+            </e>
+            <e p="OpenSans" t="Include">
+              <e p="OpenSans-Regular.eot" t="Include" />
+              <e p="OpenSans-Regular.ttf" t="Include" />
+              <e p="OpenSans-Regular.woff" t="Include" />
             </e>
           </e>
           <e p="js" t="Include">

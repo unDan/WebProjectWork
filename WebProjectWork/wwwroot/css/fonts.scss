@@ -9,3 +9,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans/OpenSans-Regular.eot');
+  src: local('OpenSans'), local('Open Sans'),
+  url('../fonts/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans/OpenSans-Regular.woff') format('woff'),
+  url("../fonts/OpenSans/OpenSans-Regular.ttf") format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
