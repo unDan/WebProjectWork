@@ -11,7 +11,8 @@
             <p>Войдите с помощью учетной записи *shop name*</p>
         </div>
         
-        <form class="login-element form">
+        <!-- Добавить дейсвие при отправке формы -->
+        <form class="login-element form"  action="" method="post">
            
             
             <div class="form_element">
@@ -28,7 +29,7 @@
 
             <div class="form_element">
                 <div class="form_element__forgot">
-                    <a href="#to-forgot-password" id="to-forgot-password" aria-label="Забыли пароль" class="LinkButton">
+                    <a asp-area="" asp-controller="Home" asp-action="ForgotPassword" id="to-forgot-password" aria-label="Забыли пароль" class="LinkButton">
 
                         <p>Забыли пароль</p>
 
@@ -38,7 +39,7 @@
             </div>
 
             <div class="form_element">
-                <button class="form_element__button button" id="sign-in" type="submit">
+                <button class="form_element__button button" id="sign-in" type="submit" readonly>
                     <span class="button-label"> Войти </span>
                 </button>
             </div>
@@ -46,7 +47,7 @@
 
         </form>
 
-        <div type="login-element alternative">
+        <div class="login-element alternative">
             <p> У Вас нет учетной записи?</p>
             <a asp-area="" asp-controller="Home" asp-action="SignUp"  id="to-register">
                 <p> Зарегистрироваться</p>
@@ -54,3 +55,5 @@
         </div>
     </div>
 </div>
+
+<script src="~/js/login.js"></script> 

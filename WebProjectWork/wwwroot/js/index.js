@@ -1,7 +1,7 @@
 ﻿
+
 //фильтр
 let options = document.querySelectorAll('.options__item');
-
 
 for (let i = 0; i < options.length; i++) {
     let option = options[i];
@@ -11,16 +11,20 @@ for (let i = 0; i < options.length; i++) {
         option.classList.toggle('options__item_hidden');
 
     }
+    
 }
 
+
+
 //дропдаун сортировки
-let sorting_button = document.querySelector('.dropdown_button');
-let submenu = document.querySelector('.dropdown__submenu');
+let dropdown = document.querySelector('.dropdown');
+let sorting_button = dropdown.querySelector('.dropdown_button');
+let submenu = dropdown.querySelector('.dropdown__submenu');
 let submenu_buttons = submenu.querySelectorAll('.submenu__button');
 let title = sorting_button.querySelector('.dropdown_button__toggleLabel');
 
 sorting_button.onclick = function () {
-
+  
     submenu.classList.toggle('hidden');
     if (!submenu.classList.contains('.hidden')){
         for(let i=0; i< submenu_buttons.length; i++){
@@ -31,4 +35,28 @@ sorting_button.onclick = function () {
         }
     }
 }
+document.addEventListener('click', function(e) {
+    const target = e.target;
+    const its_dropdown = target === dropdown || dropdown.contains(target);
+    let submenu_hidden = submenu.classList.contains('.hidden');
+    
+    if (!its_dropdown && !submenu_hidden) {
+            submenu.classList.add('hidden');
+        
+    }
+    /*  const target = e.target;
+    const its_menu = target == menu || menu.contains(target);
+    const its_btnMenu = target == btnMenu;
+    const menu_is_active = menu.classList.contains('open');
+    
+    if (!its_menu && !its_btnMenu && menu_is_active) {
+        toggleMenu();
+    }*/
+    
+})
+
+
+
+
+
 
