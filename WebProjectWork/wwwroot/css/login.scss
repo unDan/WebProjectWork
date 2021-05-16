@@ -20,7 +20,8 @@
   }
 }
 
-.login-element.login-element__info{
+.login-element.login-element__info, 
+.login-element.login-element__sign-in{
   
   width: 100%;
   //background-color: #1c7430;
@@ -53,6 +54,14 @@
     color: #808A8A;
     max-width: 350px;
     margin-top: 10px;
+  }
+}
+
+.login-element.login-element__sign-in{
+  
+  p{
+  text-align: left;
+
   }
 }
 
@@ -142,8 +151,9 @@
       color: white;
     }
   }
-  
 }
+
+
 
 .form_element.form_element_forget-pass{
   input{
@@ -170,6 +180,21 @@
   }
 }
 
+.form_element_checkbox{
+  align-self: flex-start;
+  margin: 10px 0 0px;
+  color:#8A8A8A;
+  a{
+    text-decoration: underline;
+  }
+  input{
+    
+  }
+}
+
+.terms{
+  margin-bottom: 30px;
+}
 
 div.alternative{
   >p{
@@ -187,11 +212,20 @@ div.alternative{
   }
 }
 
-.login-element__forget-pass.alternative{
+.login-element__forget-pass.alternative, 
+.login-element__sign-in.alternative{
     margin-bottom: 45px;
   a{
     margin-left: 5px;
   }
 }
+
+.login-element__sign-in.alternative {
+  margin-top: 30px;
+}
+
+
+
+
 
  

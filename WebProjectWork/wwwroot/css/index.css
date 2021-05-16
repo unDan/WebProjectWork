@@ -121,10 +121,12 @@ header nav .rightNav div:hover {
   line-height: 21px;
 }
 
-.login-element.login-element__info {
+.login-element.login-element__info,
+.login-element.login-element__sign-in {
   width: 100%;
 }
-.login-element.login-element__info p {
+.login-element.login-element__info p,
+.login-element.login-element__sign-in p {
   font-family: "Brutal", sans-serif;
   text-transform: uppercase;
   display: inline-block;
@@ -148,6 +150,10 @@ header nav .rightNav div:hover {
   color: #808A8A;
   max-width: 350px;
   margin-top: 10px;
+}
+
+.login-element.login-element__sign-in p {
+  text-align: left;
 }
 
 .login-element.logo {
@@ -240,6 +246,18 @@ header nav .rightNav div:hover {
   line-height: 21px;
 }
 
+.form_element_checkbox {
+  align-self: flex-start;
+  margin: 10px 0 0px;
+  color: #8A8A8A;
+}
+.form_element_checkbox a {
+  text-decoration: underline;
+}
+.terms {
+  margin-bottom: 30px;
+}
+
 div.alternative > p {
   color: #8A8A8A;
   margin-top: 20px;
@@ -254,11 +272,17 @@ div.alternative a p {
   padding: 0;
 }
 
-.login-element__forget-pass.alternative {
+.login-element__forget-pass.alternative,
+.login-element__sign-in.alternative {
   margin-bottom: 45px;
 }
-.login-element__forget-pass.alternative a {
+.login-element__forget-pass.alternative a,
+.login-element__sign-in.alternative a {
   margin-left: 5px;
+}
+
+.login-element__sign-in.alternative {
+  margin-top: 30px;
 }
 
 body {

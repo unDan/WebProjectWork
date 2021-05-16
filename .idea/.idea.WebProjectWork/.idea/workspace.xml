@@ -16,14 +16,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93eebde-5e18-4bac-a992-410a220f0db2" name="Default Changelist" comment="Login page finished + some js">
+    <list default="true" id="c93eebde-5e18-4bac-a992-410a220f0db2" name="Default Changelist" comment="Added forgot-password page">
+      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/img/3.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/img/icon_61I_icon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/Views/Home/ForgotPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Views/Home/ForgotPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectWork/Views/Home/SignUp.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Views/Home/SignUp.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/js/login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,6 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/site.css" />
       <option value="$PROJECT_DIR$/WebProjectWork/Models/GameCard.cs" />
-      <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/SignUp.cshtml" />
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/fonts/font.css" />
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/fonts/Brutal/font_Brutal.css" />
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/fonts/Brutal/stylesheet.css" />
@@ -68,9 +68,10 @@
       <option value="$PROJECT_DIR$/WebProjectWork/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/js/index.js" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/Login.cshtml" />
-      <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/ForgotPassword.cshtml" />
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/js/login.js" />
+      <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/SignUp.cshtml" />
+      <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" />
     </changedPaths>
   </component>
   <component name="JsBowerSettings">
@@ -178,6 +179,7 @@
     <MESSAGE value="New fonts added + minor fixes" />
     <MESSAGE value="Login page update" />
     <MESSAGE value="Login page finished + some js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login page finished + some js" />
+    <MESSAGE value="Added forgot-password page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added forgot-password page" />
   </component>
 </project>
