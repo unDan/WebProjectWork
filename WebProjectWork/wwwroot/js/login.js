@@ -6,8 +6,10 @@ let submit_button = form.querySelector('.form_element__button');
 
 form.addEventListener("input", function (event) {
     
-    if (email.validity.valid && password.validity.valid)
-        submit_button.classList.add('active');
+  
+    if (email.validity.valid)
+        if (!password || password.validity.valid)
+            submit_button.classList.add('active');
     
     else
         submit_button.classList.remove('active');
@@ -17,6 +19,9 @@ form.addEventListener("input", function (event) {
 form.onsubmit = function(event) {
     event.preventDefault();
     console.log('Форма отправлена!');
-    console.log("Email:", email.value, ", password: ", password.value);
+    if (password)
+        console.log("Email:", email.value, ", password: ", password.value);
+    else
+        console.log("Email:", email.value);
 };
 

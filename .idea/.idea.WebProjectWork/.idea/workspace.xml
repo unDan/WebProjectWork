@@ -16,17 +16,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93eebde-5e18-4bac-a992-410a220f0db2" name="Default Changelist" comment="Login page update">
-      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/img/3.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/img/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/img/icon_61I_icon.ico" afterDir="false" />
+    <list default="true" id="c93eebde-5e18-4bac-a992-410a220f0db2" name="Default Changelist" comment="Login page finished + some js">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/Views/Home/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Views/Home/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectWork/Views/Home/ForgotPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Views/Home/ForgotPassword.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/js/login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Кристина/RiderProjects/WebProjectWork/WebProjectWork/wwwroot/css/index.css.map" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/site.css" />
@@ -64,14 +64,19 @@
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.scss" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Shared/_Layout.cshtml" />
-      <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/js/login.js" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/forgot-password.cshtml" />
       <option value="$PROJECT_DIR$/WebProjectWork/Controllers/HomeController.cs" />
-      <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/ForgotPassword.cshtml" />
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/js/index.js" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/Login.cshtml" />
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" />
+      <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/ForgotPassword.cshtml" />
+      <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/js/login.js" />
     </changedPaths>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="ProjectId" id="1pfKc2olGuhZtoW8AnlPtMiqdvA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -91,12 +96,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebProjectWork">
@@ -168,6 +177,7 @@
     <MESSAGE value="Created login page" />
     <MESSAGE value="New fonts added + minor fixes" />
     <MESSAGE value="Login page update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login page update" />
+    <MESSAGE value="Login page finished + some js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login page finished + some js" />
   </component>
 </project>

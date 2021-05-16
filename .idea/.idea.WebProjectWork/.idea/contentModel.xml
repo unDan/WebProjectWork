@@ -68,9 +68,7 @@
             </e>
           </e>
           <e p="img" t="Include">
-            <e p="3.ico" t="Include" />
             <e p="3.png" t="Include" />
-            <e p="icon_61I_icon.ico" t="Include" />
           </e>
           <e p="js" t="Include">
             <e p="index.js" t="Include" />
