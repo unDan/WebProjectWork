@@ -35,6 +35,8 @@ sorting_button.onclick = function () {
         }
     }
 }
+
+//клик все блока dropdown
 document.addEventListener('click', function(e) {
     const target = e.target;
     const its_dropdown = target === dropdown || dropdown.contains(target);
@@ -44,14 +46,6 @@ document.addEventListener('click', function(e) {
             submenu.classList.add('hidden');
         
     }
-    /*  const target = e.target;
-    const its_menu = target == menu || menu.contains(target);
-    const its_btnMenu = target == btnMenu;
-    const menu_is_active = menu.classList.contains('open');
-    
-    if (!its_menu && !its_btnMenu && menu_is_active) {
-        toggleMenu();
-    }*/
     
 })
 

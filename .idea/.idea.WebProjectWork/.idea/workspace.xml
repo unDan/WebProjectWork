@@ -16,19 +16,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93eebde-5e18-4bac-a992-410a220f0db2" name="Default Changelist" comment="New fonts added + minor fixes">
-      <change afterPath="$PROJECT_DIR$/WebProjectWork/Views/Home/ForgotPassword.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/js/login.js" afterDir="false" />
+    <list default="true" id="c93eebde-5e18-4bac-a992-410a220f0db2" name="Default Changelist" comment="Login page update">
+      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/img/3.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/img/icon_61I_icon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebProjectWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/Views/Home/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Views/Home/Login.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebProjectWork/wwwroot/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebProjectWork/wwwroot/js/index.js" afterDir="false" />
     </list>
@@ -67,14 +63,14 @@
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/_header.scss" />
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/index.scss" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/Index.cshtml" />
-      <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Shared/_Layout.cshtml" />
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/js/login.js" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/forgot-password.cshtml" />
       <option value="$PROJECT_DIR$/WebProjectWork/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/ForgotPassword.cshtml" />
-      <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/Login.cshtml" />
       <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/js/index.js" />
+      <option value="$PROJECT_DIR$/WebProjectWork/Views/Home/Login.cshtml" />
+      <option value="$PROJECT_DIR$/WebProjectWork/wwwroot/css/login.scss" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pfKc2olGuhZtoW8AnlPtMiqdvA" />
@@ -171,6 +167,7 @@
     <MESSAGE value="Added main page" />
     <MESSAGE value="Created login page" />
     <MESSAGE value="New fonts added + minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="New fonts added + minor fixes" />
+    <MESSAGE value="Login page update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login page update" />
   </component>
 </project>

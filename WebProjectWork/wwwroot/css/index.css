@@ -137,7 +137,11 @@ header nav .rightNav div:hover {
 }
 
 .login-element.logo {
-  margin: 50px 0;
+  margin: 10px auto;
+  width: 90px;
+  height: 120px;
+  background: url(../img/3.png) no-repeat 0 0;
+  background-size: cover;
 }
 
 .form {
@@ -172,6 +176,12 @@ header nav .rightNav div:hover {
   padding-right: 14px;
   background-color: #2B2B2B;
   color: #f4f4f4;
+}
+.form_element input:-webkit-autofill,
+.form_element input:-webkit-autofill:hover,
+.form_element input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #f4f4f4;
+  transition: background-color 5000s ease-in-out 0s;
 }
 .form_element .button {
   background-color: #191919;

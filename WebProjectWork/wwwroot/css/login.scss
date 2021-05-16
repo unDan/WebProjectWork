@@ -41,7 +41,11 @@
 
 //загрушка
 .login-element.logo{
-  margin: 50px 0;
+  margin: 10px auto;
+  width: 90px;
+  height: 120px;
+  background: url(../img/3.png) no-repeat 0 0;
+  background-size: cover;
 }
 
 
@@ -88,6 +92,15 @@
     background-color: #2B2B2B;
     color: #f4f4f4;
   }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus
+  {
+    -webkit-text-fill-color:  #f4f4f4;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+ 
   
   .button{
     background-color: #191919;
